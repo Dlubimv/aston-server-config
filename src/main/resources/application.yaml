@@ -5,10 +5,8 @@ spring:
     config:
       server:
         git:
-          uri:
-          username:
-          password:
-          search-paths:
+          uri: https://github.com/Dlubimv/aston-server-config.git
+          search-paths: src/main/resources/application.yaml
 
 server:
   port: 8888
