@@ -6,7 +6,7 @@ spring:
       server:
         git:
           uri: https://github.com/Dlubimv/aston-server-config.git
-          search-paths: src/main/resources/microservices
+          search-paths: src/main/resources, src/main/resources/microservices/discount, src/main/resources/microservices/product
         default-label: master
 
 server:
